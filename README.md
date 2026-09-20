@@ -1,4 +1,4 @@
-<img width="814" height="828" alt="image" src="https://github.com/user-attachments/assets/32f30409-a7fd-42b1-8fd3-1878a460d402" /># Task 2: What skills do the top-paying data analyst jobs ask for?
+# Task 2: What skills do the top-paying data analyst jobs ask for?
 
 For this one I took the highest-paying data analyst jobs from my first query and looked at which skills they list. The idea is to see what's worth learning if you're aiming for the better-paid roles.
 
