@@ -44,7 +44,7 @@ ORDER BY salary_year_avg DESC;
 
 I exported the results as a CSV, uploaded it to Claude and asked it to go through the skills column and show me what stood out. Here's what it came back with:
 
-<!-- screenshot goes here -->
+
 <img width="814" height="828" alt="image" src="https://github.com/user-attachments/assets/bbb27400-a466-4238-85a3-582e459927a6" />
 
 Interestingly, Power BI didn't appear as often as I expected, with Tableau the leading BI tool (6 of 8 postings vs 2). This is only a small sample of remote, top-paying roles, and the dataset leans towards US postings, so I wouldn't read too much into it. Still, it's made me think about focusing on Tableau next, and I'll check a wider set of data analyst postings before committing.
@@ -90,4 +90,15 @@ ORDER BY
 ```
 
 Because the filter happens before the `ORDER BY` and `LIMIT`, the two jobs with no skills are skipped and replaced by the next highest-paying ones. It was a good reminder to check how joins change the number of rows.
+
+
+
+## Analysing the fixed results
+
+After fixing the query I exported the 10-job results, uploaded them to Claude again and asked for the same analysis:
+
+<img width="793" height="679" alt="image" src="https://github.com/user-attachments/assets/b9d50349-4954-4276-8398-281a3556aff9" />
+
+SQL now appears in 9 of 10 postings and Python in 8. Tableau is still the leading BI tool (6 of 10 postings vs 2 for Power BI), so the picture is much the same as before, though it's still a small sample. The 9th and 10th highest salaries are both $170,000, so which of the tied jobs makes the top 10 can vary between runs.
+
 
