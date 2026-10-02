@@ -1,4 +1,4 @@
-# Task 2: What skills do the top-paying data analyst jobs ask for?
+  # Task 2: What skills do the top-paying data analyst jobs ask for?
 
 For this one I took the highest-paying data analyst jobs from my first query and looked at which skills they list. The idea is to see what's worth learning if you're aiming for the better-paid roles.
 
